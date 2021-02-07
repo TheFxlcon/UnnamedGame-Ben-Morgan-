@@ -489,7 +489,6 @@ function Start() {
             if (running) {
                 paused = !paused;
             }
-
         // } else if (event.key == "Backspace") {
         //     sceneReset(scene);
         // } else if (event.key >= 1 && event.key <= scenes.length) {
