@@ -1,4 +1,3 @@
-//WHY ARE YOU RUNNING????????????????????????
 //setup canvas
 let canvas = document.getElementById("canvas");
 canvas.style.backgroundColor = "#aaaaaa";
@@ -490,8 +489,6 @@ function Start() {
             if (running) {
                 paused = !paused;
             }
-    
-            //HAHA YOU'RE GAY
 
         // } else if (event.key == "Backspace") {
         //     sceneReset(scene);
