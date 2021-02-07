@@ -1,3 +1,5 @@
+//test
+
 //setup canvas
 let canvas = document.getElementById("canvas");
 canvas.style.backgroundColor = "#aaaaaa";
