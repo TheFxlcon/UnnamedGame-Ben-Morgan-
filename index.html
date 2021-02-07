@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Platformer</title>
+		<style>
+			canvas{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);               
+			}
+		</style>
+	</head>
+	<body onload="Start()">
+		<canvas id="canvas" width="1240" height="600" style="border:1px solid #000000;"><canvas>
+		<img id="imgSpeed" src="speedBoost.PNG" width="0" height="0"></img>
+		<img id="imgCheckpoint" src="checkPoint.PNG" width="0" height="0"></img>
+		<img id="imgCoin" src="coinv2.PNG" width="0" height="0"></img>
+		<img id="imgJump" src="jumpPad.PNG" width="0" height="0"></img>
+		<img id="imgTeleport" src="teleporter.PNG" width="0" height="0"></img>
+		<script src="platformer.js"></script>
+	</body>
+</html>
