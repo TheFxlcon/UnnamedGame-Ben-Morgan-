@@ -559,6 +559,8 @@ function Start() {
                 }
             }
         }
-	});
+    });
+    
+    //game loop
     setInterval(Update,timeStep*1000);
 }
